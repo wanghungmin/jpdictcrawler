@@ -3395,3 +3395,167 @@ AttributeError: 'NoneType' object has no attribute 'find_all'
 08-23 13:01:DEBUG:root:{'MeaningFields': '\n【名詞】\n\n1.【英】department store ；百貨商店，百貨公司。\n\n', 'KanaFields': 'デパート', 'PronounceAudioField': '[sound:depaato.mp3]'}
 08-23 13:03:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
 08-23 13:03:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 19:43:INFO:root:----------new add-on start-----------
+08-23 19:43:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 19:43:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 19:43:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 19:44:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E8%B2%B4%E6%96%B9
+08-23 19:44:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 19:44:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E8%B2%B4%E6%96%B9 HTTP/1.1" 200 None
+08-23 19:44:DEBUG:root:web connect status code:200
+08-23 19:44:DEBUG:root:encoding:utf-8
+08-23 19:44:INFO:root:貴方:the word has　2　pronounces
+08-23 19:44:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 19:44:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J17848.mp3 HTTP/1.1" 200 2508
+08-23 19:44:DEBUG:root:audio has been download
+08-23 19:44:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 19:44:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/26287848CD6FA348D3DA46B96153ED3AE0DF038BD7555B67550CF7730B8DCA9EE4817D25A32A8CC18B1A076C326CAAFE14A21C4B3D89EB10 HTTP/1.1" 200 55296
+08-23 19:44:DEBUG:root:audio has been download
+08-23 19:44:DEBUG:root:self.typeNameDict:
+08-23 19:44:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 19:44:DEBUG:root:self.typeValueDict:
+08-23 19:44:DEBUG:root:{'MeaningFields': '\n【代詞】\n\n1.第二人稱，閣下。\n\n【名詞】\n\n1.貴處，尊府。\n\n', 'KanaFields': 'きほう', 'PronounceAudioField': '[sound:kihou.mp3]', 'SentenceFields': '貴方の都合により、日程を調整する。', 'SentenceMeaningFields': '根據您是否方便，來調整日程。', 'SentenceAudioField': '[sound:kihou_sentence.mp3]'}
+08-23 19:44:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 19:44:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 19:45:INFO:root:----------new add-on start-----------
+08-23 19:45:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 19:45:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 19:45:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 19:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 19:58:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 19:58:INFO:root:----------new add-on start-----------
+08-23 19:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 19:58:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 19:58:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 19:59:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E5%8D%B1%E3%81%AA%E3%81%84
+08-23 19:59:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 19:59:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E5%8D%B1%E3%81%AA%E3%81%84 HTTP/1.1" 200 None
+08-23 19:59:DEBUG:root:web connect status code:200
+08-23 19:59:DEBUG:root:encoding:utf-8
+08-23 19:59:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 19:59:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01792.mp3 HTTP/1.1" 200 2926
+08-23 19:59:DEBUG:root:audio has been download
+08-23 19:59:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 19:59:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/D746768D13804B80D45F18805DCB6B6E42D045E636A8D34B43B4755014BB535E5B88C4CE2B6F8F1D HTTP/1.1" 200 38592
+08-23 19:59:DEBUG:root:audio has been download
+08-23 19:59:DEBUG:root:self.typeNameDict:
+08-23 19:59:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 19:59:DEBUG:root:self.typeValueDict:
+08-23 19:59:DEBUG:root:{'MeaningFields': '\r\n【形容詞/イ形容詞】\r\n\r\n1.危險的，不安全的，有危害的。\r\n2.靠不住的，令人擔心的。\r\n3.不穩固的，地位受到威脅的。\r\n4.懸乎的，不保險的，處於預計會出現的壞結果的狀態。\r\n\r\n', 'KanaFields': 'あぶない', 'PronounceAudioField': '[sound:abunai.mp3]', 'SentenceFields': 'そんな所に登っては危ない。', 'SentenceMeaningFields': '攀登這種地方可危險。', 'SentenceAudioField': '[sound:abunai_sentence.mp3]'}
+08-23 19:59:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 19:59:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:01:INFO:root:----------new add-on start-----------
+08-23 20:02:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:02:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:02:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:02:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%9A%97%E8%A8%98
+08-23 20:02:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 20:02:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%9A%97%E8%A8%98 HTTP/1.1" 200 None
+08-23 20:02:DEBUG:root:web connect status code:200
+08-23 20:02:DEBUG:root:encoding:utf-8
+08-23 20:02:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 20:02:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J02566.mp3 HTTP/1.1" 200 2926
+08-23 20:02:DEBUG:root:audio has been download
+08-23 20:02:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 20:02:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/6FDFC2B639A2BEBD5D5421EF67E965FB4AAA5607442850945B763D6E68930A12 HTTP/1.1" 200 25344
+08-23 20:02:DEBUG:root:audio has been download
+08-23 20:02:DEBUG:root:self.typeNameDict:
+08-23 20:02:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 20:02:DEBUG:root:self.typeValueDict:
+08-23 20:02:DEBUG:root:{'MeaningFields': '<br>【名・他動詞・サ變/三類】<br><br>1.熟記；記住；背，背誦。（そらでおぼえること。そらおぼえ。熟知する。おぼえこむ。暗しょうする。）<br>2.同：諳記<br><br>', 'KanaFields': 'あんき', 'PronounceAudioField': '[sound:annki.mp3]', 'SentenceFields': '単語を暗記する。', 'SentenceMeaningFields': '背單詞。', 'SentenceAudioField': '[sound:annki_sentence.mp3]'}
+08-23 20:03:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:03:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:07:INFO:root:----------new add-on start-----------
+08-23 20:07:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:07:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:07:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:08:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E7%9B%B8%E3%81%BE%E3%81%A3%E3%81%A6
+08-23 20:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 20:08:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E7%9B%B8%E3%81%BE%E3%81%A3%E3%81%A6 HTTP/1.1" 200 None
+08-23 20:08:DEBUG:root:web connect status code:200
+08-23 20:08:DEBUG:root:encoding:utf-8
+08-23 20:08:ERROR:root:Error when serch word:相まって
+08-23 20:08:ERROR:root:name 'LF2BR' is not defined
+08-23 20:08:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 217, in onFocusLost
+    sentence = LF2BR(jp.getSentence())
+NameError: name 'LF2BR' is not defined
+
+08-23 20:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:08:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:12:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:12:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:12:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:13:INFO:root:----------new add-on start-----------
+08-23 20:13:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:13:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:13:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:13:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%9A%97%E8%A8%98
+08-23 20:13:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 20:13:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%9A%97%E8%A8%98 HTTP/1.1" 200 None
+08-23 20:13:DEBUG:root:web connect status code:200
+08-23 20:13:DEBUG:root:encoding:utf-8
+08-23 20:13:ERROR:root:Error when serch word:暗記
+08-23 20:13:ERROR:root:'list' object has no attribute 'replace'
+08-23 20:13:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 217, in onFocusLost
+    sentence = LF2BR(onlyOneLF(jp.getSentence()))
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\str.py", line 4, in LF2BR
+    return str.replace("\n", "<br>")
+AttributeError: 'list' object has no attribute 'replace'
+
+08-23 20:19:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:19:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:20:INFO:root:----------new add-on start-----------
+08-23 20:20:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:20:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:20:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:20:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E5%A9%A6%E4%BA%BA%E6%9C%8D
+08-23 20:20:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 20:20:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E5%A9%A6%E4%BA%BA%E6%9C%8D HTTP/1.1" 200 None
+08-23 20:20:DEBUG:root:web connect status code:200
+08-23 20:20:DEBUG:root:encoding:utf-8
+08-23 20:20:ERROR:root:Error when serch word:婦人服
+08-23 20:20:ERROR:root:'NoneType' object has no attribute 'find'
+08-23 20:20:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 217, in onFocusLost
+    sentence = LF2BR(onlyOneLF(jp.getSentence()))
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\str.py", line 7, in onlyOneLF
+    while str.find("\n\n"):
+AttributeError: 'NoneType' object has no attribute 'find'
+
+08-23 20:20:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:20:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:21:INFO:root:----------new add-on start-----------
+08-23 20:21:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:21:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:21:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:22:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E5%BF%85%E8%A6%81
+08-23 20:22:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 20:22:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E5%BF%85%E8%A6%81 HTTP/1.1" 200 None
+08-23 20:22:DEBUG:root:web connect status code:200
+08-23 20:22:DEBUG:root:encoding:utf-8
+08-23 20:24:INFO:root:----------new add-on start-----------
+08-23 20:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:24:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:24:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:24:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%9C%AC
+08-23 20:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 20:24:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%9C%AC HTTP/1.1" 200 None
+08-23 20:24:DEBUG:root:web connect status code:200
+08-23 20:24:DEBUG:root:encoding:utf-8
+08-23 20:24:INFO:root:本:the word has　2　pronounces
+08-23 20:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 20:24:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/7B9031A8F9F77A92 HTTP/1.1" 200 7488
+08-23 20:24:DEBUG:root:audio has been download
+08-23 20:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 20:24:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/F3CFAF6B3637C0FB82E9AB17C649F4EF4D42F01DAAB3F54E45F81011A23AD8C6 HTTP/1.1" 200 23040
+08-23 20:24:DEBUG:root:audio has been download
+08-23 20:24:DEBUG:root:self.typeNameDict:
+08-23 20:24:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 20:24:DEBUG:root:self.typeValueDict:
+08-23 20:24:DEBUG:root:{'MeaningFields': '<br>【名詞】<br>1.本，根本。<br>2.根部，根。<br>3.（和歌的）上句。<br>【助數詞】<br>1.棵，根。<br>', 'KanaFields': 'もと', 'PronounceAudioField': '[sound:moto.mp3]', 'SentenceFields': '電気のもとを切る。', 'SentenceMeaningFields': '切斷電源。', 'SentenceAudioField': '[sound:moto_sentence.mp3]'}
+08-23 20:25:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:25:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157

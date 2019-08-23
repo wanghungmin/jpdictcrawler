@@ -19,12 +19,13 @@ import json
 import os.path
 from . import opencc
 from .opencc import OpenCC
-
+from .str import LF2BR,onlyOneLF
 
 logging.info('----------new add-on start-----------')
 
 
 
+    
 cc = OpenCC('s2twp')
 '''
 字串簡轉繁
@@ -217,7 +218,7 @@ def onFocusLost(flag, n, fidx):
         meaning = jp.getMeaning()
         pronounce = jp.getPronounce()
         if meaning:
-            af.addDstValue('MeaningFields',cc.convert(meaning))
+            af.addDstValue('MeaningFields',cc.convert(LF2BR(onlyOneLF(meaning))))
         if pronounce:
             af.addDstValue('KanaFields',pronounce[0])
             af.addDstValue('PronounceAudioField',AnkiMedia.audioLinkToField(pronounce[1],pronounce[2]))

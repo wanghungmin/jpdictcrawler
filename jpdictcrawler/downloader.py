@@ -1,14 +1,14 @@
 import requests
 import logging
 import os
-
+from .define import *
 class DownloadError(Exception):
     pass
 
 class Downloader():
     @staticmethod 
     def getDataFromUrl(url):
-        r = requests.get(url,headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'})
+        r = requests.get(url,headers = headers)
         if r:
             logging.debug('audio has been download')
             return r.content

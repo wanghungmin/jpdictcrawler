@@ -34,6 +34,8 @@ for line in f.read().split(';'):   #按照字符：进行划分读取
 def string_shaping(str):
     return str.replace("\n", "").strip()
 
+
+
 #------------------------------------------------------------------
 # find the first sentence in the tag's scope
 # return a list of [def_sentence_from,def_sentence_to,audio_link]
