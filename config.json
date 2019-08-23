@@ -1,0 +1,15 @@
+{
+    "noteTypes": ["japanese"], 
+    "srcFields":["Expression"],
+    
+    "dstFields":
+    {
+        "MeaningFields":["Meaning"],
+        "KanaFields": ["Kana"],
+        "PronounceAudioField":["PronounceAudio"],
+        "SentenceFields":["Sentence","sentence"],
+        "SentenceMeaningFields":["SentenceMeaning"],
+        "SentenceAudioField":["SentenceAudio"]
+    }
+   
+}
