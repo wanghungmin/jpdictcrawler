@@ -23,7 +23,8 @@ An anki add-on which can generate meanings, pronounces and sentences automatical
 
 ## To be continue 仍待完成功能
 * 加入add-on生成NoteType
-* 當有不同讀音時，選擇你需要的讀音
+* 當有不同讀音時，選擇你需要的讀音(needs to improve)
 * 切換生成的欄位的開關
 * 切換繁簡轉換的開關
+
 Copyright © 2019 wanghungmin 
