@@ -6,6 +6,7 @@ from aqt import mw
 from aqt.utils import showInfo
 # import all of the Qt GUI library
 from aqt.qt import *
+from aqt.fields import FieldDialog
 from anki.hooks import addHook
 # We're going to add a menu item below. First we want to create a function to
 # be called when the menu item is activated.
@@ -20,7 +21,7 @@ import os.path
 from . import opencc
 from .opencc import OpenCC
 from .str import LF2BR,onlyOneLF
-
+from .jpdictcrawler.path import *
 logging.info('----------new add-on start-----------')
 
 
@@ -189,10 +190,19 @@ def onFocusLost(flag, n, fidx):
     return True
 '''
 
+def selectBox(self):
+    global jp
+    self.widget = box = QComboBox()
+    list = jp.getKanaList()
+    box.addItems(list)
+    box.activated.connect(jp.setIndexPronounces)
+    box.show()
+editor_ptr = None
 def onFocusLost(flag, n, fidx):
     global af
     global jp
     global sw
+    global editor_ptr
     if not af.isTargetNoteType(n.model()['name']):
         return flag
     fields = mw.col.models.fieldNames(n.model())
@@ -204,16 +214,22 @@ def onFocusLost(flag, n, fidx):
     try:
         if not af.findDstFieldName(n):
             return flag
-        if not af.isAllFieldEmpty(n):
+        if not af.isAllFieldEmpty():
             return flag
         if srcTxt == '':
-            af.flushDstFields(n)
+            af.flushDstFields()
             return True
         jp.serchWord(srcTxt)
         
         #kana = af.getFieldValue(n,'KanaFields')
-        #if kana and jp.isMultiPronounces():
-        #    jp.selectKana(kana)
+        if jp.isMultiPronounces():
+            editor_ptr.widget = box = QComboBox()
+            list = jp.getKanaList()
+            box.addItems(list)
+            box.activated.connect(regenerateFields)
+            box.show()
+            return flag
+       
         sentence = jp.getSentence()
         meaning = jp.getMeaning()
         pronounce = jp.getPronounce()
@@ -227,7 +243,7 @@ def onFocusLost(flag, n, fidx):
             af.addDstValue('SentenceMeaningFields',cc.convert(sentence[1]))
             af.addDstValue('SentenceAudioField',AnkiMedia.audioLinkToField(sentence[2],pronounce[2]+"_sentence"))
         
-        if not af.generateFields(n):
+        if not af.generateFields():
             return flag
             
     except crawler.CrawlerError as e:
@@ -240,6 +256,56 @@ def onFocusLost(flag, n, fidx):
         jp = None
         raise
     return True
+
+
+#this method is failed because the editor does not recieve the update flag to update the view
+
+def regenerateFields(index):
+    global jp
+    global af
+    global editor_ptr
+    jp.setIndexPronounces(index)
+    logging.debug('regenerate fields')
+    sentence = jp.getSentence()
+    meaning = jp.getMeaning()
+    pronounce = jp.getPronounce()
+    if meaning:
+        af.addDstValue('MeaningFields',cc.convert(LF2BR(onlyOneLF(meaning))))
+    if pronounce:
+        af.addDstValue('KanaFields',pronounce[0])
+        af.addDstValue('PronounceAudioField',AnkiMedia.audioLinkToField(pronounce[1],pronounce[2]))
+    if sentence and sw.sentence_generate:
+        af.addDstValue('SentenceFields',sentence[0])
+        af.addDstValue('SentenceMeaningFields',cc.convert(sentence[1]))
+        af.addDstValue('SentenceAudioField',AnkiMedia.audioLinkToField(sentence[2],pronounce[2]+"_sentence"))
+    if sentence == None:
+        af.addDstValue('SentenceFields','')
+        af.addDstValue('SentenceMeaningFields','')
+        af.addDstValue('SentenceAudioField','')
+        
+    if not af.generateFields():
+        return False
+    editor_ptr.loadNoteKeepingFocus()
+    logging.debug('regenerate fields success')
+    return True
+# cross out the currently selected text
+def onStrike(editor):
+    global jp
+    
+    
+icon_path = os.path.join(ICON_PATH,"icon.png")
+def addMyButton(buttons, editor):
+    global editor_ptr
+    editor_ptr = editor
+    editor._links['strike'] = onStrike
+    return buttons + [editor._addButton(
+        icon_path, # "/full/path/to/icon.png",
+        "strike", # link name
+        "tooltip")]
+
+addHook("setupEditorButtons", addMyButton)    
+#-------------------------------------------
+
 addHook('editFocusLost', onFocusLost)
 # create a new menu item, "JpDictCrawler"
 action = QAction("JpDictCrawler", mw)

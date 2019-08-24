@@ -115,7 +115,22 @@ class JpDictCrawler():
             return False
         else:
             return True
+    def getKanaList(self):
+        list = []
+        if not self.isMultiPronounces:
+            [kana,p,a] = self.getPronounce()
+            list.append(kana)
+            return list
+        pronounces = self.soup.find_all('div',attrs={'class':'word-details-pane'})
+        for p in pronounces:
+            list.append(string_shaping(p.find('div',attrs={'class':'pronounces'}).find('span').text).replace("[", "").replace("]", ""))
+        return list
     
+    def setIndexPronounces(self,index):
+        self.indexPronounces = index
+        logging.debug("setIndexPronounces:"+str(self.indexPronounces))
+        return 
+        
     # select pronounces using kana
     # if success set indexPronounces and return true
     # else return false

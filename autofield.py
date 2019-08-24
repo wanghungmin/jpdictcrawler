@@ -9,6 +9,10 @@ class AutoField():
         self.dstFields = {} # is a dict
         self.typeNameDict = {} # is a dictionary , to mark the field types and the corresponding field names in this note
         self.typeValueDict = {} # is a dictionary , to mark the field values that we want to fill in corresponding fields type 
+        self.note = None
+    def boundNote(n):
+        self.note = n
+        return
     def isTargetNoteType(self,noteName):
         noteName = noteName.lower()
         for allowedString in self.noteTypes:
@@ -27,18 +31,19 @@ class AutoField():
         if name == None:
             return None
         return n[name]
-
+    def getNameFromType(self,field_type):
+        return self.typeNameDict[field_type]
     def loadConfig(self,config):
         self.srcFields = config['srcFields']
         self.dstFields = config['dstFields']
         self.noteTypes = config['noteTypes']
     def isFieldInSrc(self,field_name):
         return field_name in self.srcFields
-    def flushDstFields(self,n):
+    def flushDstFields(self):
         for type,name in self.typeNameDict.items():
             if name is None:
                 continue
-            n[name] = ''
+            self.note[name] = ''
         return 
     def addDstValue(self,field_type,value):
         self.typeValueDict.update({field_type:value})
@@ -48,17 +53,18 @@ class AutoField():
             n[field_name] = value
         except:
             raise
-    def isAllFieldEmpty(self,n):
+    def isAllFieldEmpty(self):
         flag = True
         for type,name in self.typeNameDict.items():
             if name is None:
                 continue
-            if n[name]:
+            if self.note[name]:
                  flag = False
         return flag
     # if no dst field is found ,return False,else return true
     # this function should be call before other operation
     def findDstFieldName(self,n):
+        self.note = n
         fields = mw.col.models.fieldNames(n.model())
         self.typeNameDict = {}
         flag = False
@@ -71,15 +77,10 @@ class AutoField():
                     break             
         return flag
     # call it after all
-    def generateFields(self,n):       
-        logging.debug('self.typeNameDict:')
-        logging.debug(self.typeNameDict)
-        logging.debug('self.typeValueDict:')
-        logging.debug(self.typeValueDict)
+    def generateFields(self):       
         for type , name in self.typeNameDict.items():
             if name == None:
                 continue
             if type in self.typeValueDict:
-                self.setField(n,name,self.typeValueDict[type])
-        return True    
-
+                self.setField(self.note,name,self.typeValueDict[type])
+        return True   

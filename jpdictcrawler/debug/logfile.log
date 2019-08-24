@@ -3559,3 +3559,898 @@ AttributeError: 'NoneType' object has no attribute 'find'
 08-23 20:24:DEBUG:root:{'MeaningFields': '<br>【名詞】<br>1.本，根本。<br>2.根部，根。<br>3.（和歌的）上句。<br>【助數詞】<br>1.棵，根。<br>', 'KanaFields': 'もと', 'PronounceAudioField': '[sound:moto.mp3]', 'SentenceFields': '電気のもとを切る。', 'SentenceMeaningFields': '切斷電源。', 'SentenceAudioField': '[sound:moto_sentence.mp3]'}
 08-23 20:25:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
 08-23 20:25:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:30:INFO:root:----------new add-on start-----------
+08-23 20:30:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:30:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 20:30:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 20:31:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E5%8D%B1%E3%81%AA%E3%81%84
+08-23 20:31:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 20:31:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E5%8D%B1%E3%81%AA%E3%81%84 HTTP/1.1" 200 None
+08-23 20:31:DEBUG:root:web connect status code:200
+08-23 20:31:DEBUG:root:encoding:utf-8
+08-23 20:31:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 20:31:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01792.mp3 HTTP/1.1" 200 2926
+08-23 20:31:DEBUG:root:audio has been download
+08-23 20:31:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 20:31:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/D746768D13804B80D45F18805DCB6B6E42D045E636A8D34B43B4755014BB535E5B88C4CE2B6F8F1D HTTP/1.1" 200 38592
+08-23 20:31:DEBUG:root:audio has been download
+08-23 20:31:DEBUG:root:self.typeNameDict:
+08-23 20:31:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 20:31:DEBUG:root:self.typeValueDict:
+08-23 20:31:DEBUG:root:{'MeaningFields': '<br>【形容詞/イ形容詞】<br>1.危險的，不安全的，有危害的。<br>2.靠不住的，令人擔心的。<br>3.不穩固的，地位受到威脅的。<br>4.懸乎的，不保險的，處於預計會出現的壞結果的狀態。<br>', 'KanaFields': 'あぶない', 'PronounceAudioField': '[sound:abunai.mp3]', 'SentenceFields': 'そんな所に登っては危ない。', 'SentenceMeaningFields': '攀登這種地方可危險。', 'SentenceAudioField': '[sound:abunai_sentence.mp3]'}
+08-23 20:32:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 20:32:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:03:INFO:root:----------new add-on start-----------
+08-23 21:03:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:03:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 21:03:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:24:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:28:INFO:root:----------new add-on start-----------
+08-23 21:28:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:28:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 21:28:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:31:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:31:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:31:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:31:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:52:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:52:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:56:INFO:root:----------new add-on start-----------
+08-23 21:56:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 21:56:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:56:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:56:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:56:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:56:INFO:root:----------new add-on start-----------
+08-23 21:56:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 21:56:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:56:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:56:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:56:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:57:INFO:root:----------new add-on start-----------
+08-23 21:57:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:57:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 21:57:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 21:57:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 21:57:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 22:31:INFO:root:----------new add-on start-----------
+08-23 22:31:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 22:31:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 22:31:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 22:32:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/<del></del><br>
+08-23 22:32:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 22:32:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%3Cdel%3E%3C/del%3E%3Cbr%3E HTTP/1.1" 200 None
+08-23 22:32:DEBUG:root:web connect status code:200
+08-23 22:32:DEBUG:root:encoding:utf-8
+08-23 22:32:INFO:root:<del></del><br>:word not found
+08-23 22:32:WARNING:root:soup is not exist, check if you have serched before!!
+08-23 23:15:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:15:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:22:INFO:root:----------new add-on start-----------
+08-23 23:22:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:22:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:22:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:23:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:23:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:23:INFO:root:----------new add-on start-----------
+08-23 23:23:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:23:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:23:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:24:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:24:INFO:root:----------new add-on start-----------
+08-23 23:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:24:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:24:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:24:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:25:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:26:INFO:root:----------new add-on start-----------
+08-23 23:26:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:26:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:26:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:27:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:27:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:27:INFO:root:----------new add-on start-----------
+08-23 23:27:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:27:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:27:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:27:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:27:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:28:INFO:root:----------new add-on start-----------
+08-23 23:28:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:28:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:28:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:28:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:28:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:37:INFO:root:----------new add-on start-----------
+08-23 23:37:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:37:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:37:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:38:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-23 23:38:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 23:38:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-23 23:38:DEBUG:root:web connect status code:200
+08-23 23:38:DEBUG:root:encoding:utf-8
+08-23 23:38:INFO:root:明日:the word has　3　pronounces
+08-23 23:38:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 23:38:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-23 23:38:DEBUG:root:audio has been download
+08-23 23:38:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 23:38:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-23 23:38:DEBUG:root:audio has been download
+08-23 23:38:DEBUG:root:self.typeNameDict:
+08-23 23:38:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 23:38:DEBUG:root:self.typeValueDict:
+08-23 23:38:DEBUG:root:{'MeaningFields': '<br>【名詞】<br>1.明天；將來。<br>', 'KanaFields': 'あす', 'PronounceAudioField': '[sound:asu.mp3]', 'SentenceFields': '明日をも知れない命。', 'SentenceMeaningFields': '命在旦夕。', 'SentenceAudioField': '[sound:asu_sentence.mp3]'}
+08-23 23:39:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:39:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:39:INFO:root:----------new add-on start-----------
+08-23 23:39:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:39:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:39:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:39:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-23 23:39:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 23:39:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-23 23:39:DEBUG:root:web connect status code:200
+08-23 23:39:DEBUG:root:encoding:utf-8
+08-23 23:39:INFO:root:明日:the word has　3　pronounces
+08-23 23:39:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 23:39:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-23 23:39:DEBUG:root:audio has been download
+08-23 23:39:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 23:39:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-23 23:39:DEBUG:root:audio has been download
+08-23 23:39:DEBUG:root:self.typeNameDict:
+08-23 23:39:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 23:39:DEBUG:root:self.typeValueDict:
+08-23 23:39:DEBUG:root:{'MeaningFields': '<br>【名詞】<br>1.明天；將來。<br>', 'KanaFields': 'あす', 'PronounceAudioField': '[sound:asu.mp3]', 'SentenceFields': '明日をも知れない命。', 'SentenceMeaningFields': '命在旦夕。', 'SentenceAudioField': '[sound:asu_sentence.mp3]'}
+08-23 23:41:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:41:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:49:INFO:root:----------new add-on start-----------
+08-23 23:49:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:49:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:49:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:49:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-23 23:49:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 23:49:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-23 23:49:DEBUG:root:web connect status code:200
+08-23 23:49:DEBUG:root:encoding:utf-8
+08-23 23:49:INFO:root:明日:the word has　3　pronounces
+08-23 23:49:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 23:49:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-23 23:49:DEBUG:root:audio has been download
+08-23 23:49:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 23:49:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-23 23:49:DEBUG:root:audio has been download
+08-23 23:49:DEBUG:root:self.typeNameDict:
+08-23 23:49:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 23:49:DEBUG:root:self.typeValueDict:
+08-23 23:49:DEBUG:root:{'MeaningFields': '<br>【名詞】<br>1.明天；將來。<br>', 'KanaFields': 'あす', 'PronounceAudioField': '[sound:asu.mp3]', 'SentenceFields': '明日をも知れない命。', 'SentenceMeaningFields': '命在旦夕。', 'SentenceAudioField': '[sound:asu_sentence.mp3]'}
+08-23 23:49:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:49:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:50:INFO:root:----------new add-on start-----------
+08-23 23:50:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:50:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:50:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:51:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E4%BD%90%E8%97%A4
+08-23 23:51:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 23:51:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E4%BD%90%E8%97%A4 HTTP/1.1" 200 None
+08-23 23:51:DEBUG:root:web connect status code:200
+08-23 23:51:DEBUG:root:encoding:utf-8
+08-23 23:51:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 23:51:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/872EB4F433133233 HTTP/1.1" 200 11520
+08-23 23:51:DEBUG:root:audio has been download
+08-23 23:51:DEBUG:root:self.typeNameDict:
+08-23 23:51:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 23:51:DEBUG:root:self.typeValueDict:
+08-23 23:51:DEBUG:root:{'MeaningFields': '<br>1.【日本姓氏】 ;佐藤。<br>', 'KanaFields': 'さとう', 'PronounceAudioField': '[sound:satou.mp3]'}
+08-23 23:52:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:52:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:52:INFO:root:----------new add-on start-----------
+08-23 23:52:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:52:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:52:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:52:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:52:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:52:INFO:root:----------new add-on start-----------
+08-23 23:52:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:52:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:52:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:53:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-23 23:53:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 23:53:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-23 23:53:DEBUG:root:web connect status code:200
+08-23 23:53:DEBUG:root:encoding:utf-8
+08-23 23:53:INFO:root:明日:the word has　3　pronounces
+08-23 23:53:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-23 23:53:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-23 23:53:DEBUG:root:audio has been download
+08-23 23:53:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 23:53:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-23 23:53:DEBUG:root:audio has been download
+08-23 23:53:DEBUG:root:self.typeNameDict:
+08-23 23:53:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 23:53:DEBUG:root:self.typeValueDict:
+08-23 23:53:DEBUG:root:{'MeaningFields': '<br>【名詞】<br>1.明天；將來。<br>', 'KanaFields': 'あす', 'PronounceAudioField': '[sound:asu.mp3]', 'SentenceFields': '明日をも知れない命。', 'SentenceMeaningFields': '命在旦夕。', 'SentenceAudioField': '[sound:asu_sentence.mp3]'}
+08-23 23:53:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-23 23:53:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-23 23:53:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-23 23:53:DEBUG:root:web connect status code:200
+08-23 23:53:DEBUG:root:encoding:utf-8
+08-23 23:53:INFO:root:明日:the word has　3　pronounces
+08-23 23:53:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-23 23:53:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-23 23:53:DEBUG:root:audio has been download
+08-23 23:53:DEBUG:root:self.typeNameDict:
+08-23 23:53:DEBUG:root:{'MeaningFields': 'Meaning', 'KanaFields': 'Kana', 'PronounceAudioField': 'PronounceAudio', 'SentenceFields': 'Sentence', 'SentenceMeaningFields': 'SentenceMeaning', 'SentenceAudioField': 'SentenceAudio'}
+08-23 23:53:DEBUG:root:self.typeValueDict:
+08-23 23:53:DEBUG:root:{'MeaningFields': '<br>【名詞】<br>1.明日，明天。<br>', 'KanaFields': 'みょうにち', 'PronounceAudioField': '[sound:myounichi.mp3]', 'SentenceFields': '明日をも知れない命。', 'SentenceMeaningFields': '命在旦夕。', 'SentenceAudioField': '[sound:asu_sentence.mp3]'}
+08-23 23:53:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:53:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:58:INFO:root:----------new add-on start-----------
+08-23 23:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:58:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-23 23:58:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-23 23:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-23 23:58:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:08:INFO:root:----------new add-on start-----------
+08-24 00:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:08:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 00:08:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:08:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 00:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 00:08:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 00:08:DEBUG:root:web connect status code:200
+08-24 00:08:DEBUG:root:encoding:utf-8
+08-24 00:08:INFO:root:明日:the word has　3　pronounces
+08-24 00:08:ERROR:root:Error when serch word:明日
+08-24 00:08:ERROR:root:selectBox() missing 1 required positional argument: 'self'
+08-24 00:08:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 227, in onFocusLost
+    selectBox()
+TypeError: selectBox() missing 1 required positional argument: 'self'
+
+08-24 00:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:10:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:10:INFO:root:----------new add-on start-----------
+08-24 00:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:10:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 00:10:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:10:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 00:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 00:10:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 00:10:DEBUG:root:web connect status code:200
+08-24 00:10:DEBUG:root:encoding:utf-8
+08-24 00:10:INFO:root:明日:the word has　3　pronounces
+08-24 00:10:ERROR:root:Error when serch word:明日
+08-24 00:10:ERROR:root:name 'setIndexPronounces' is not defined
+08-24 00:10:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 227, in onFocusLost
+    selectBox()
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 198, in selectBox
+    box.activated.connect(setIndexPronounces)
+NameError: name 'setIndexPronounces' is not defined
+
+08-24 00:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:10:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:11:INFO:root:----------new add-on start-----------
+08-24 00:11:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:11:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 00:11:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:11:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 00:11:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 00:11:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 00:11:DEBUG:root:web connect status code:200
+08-24 00:11:DEBUG:root:encoding:utf-8
+08-24 00:11:INFO:root:明日:the word has　3　pronounces
+08-24 00:11:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 00:11:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 00:11:DEBUG:root:audio has been download
+08-24 00:11:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 00:11:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 00:11:DEBUG:root:audio has been download
+08-24 00:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:16:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:16:INFO:root:----------new add-on start-----------
+08-24 00:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:16:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 00:16:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:16:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 00:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 00:16:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 00:16:DEBUG:root:web connect status code:200
+08-24 00:16:DEBUG:root:encoding:utf-8
+08-24 00:16:INFO:root:明日:the word has　3　pronounces
+08-24 00:16:ERROR:root:Error when serch word:明日
+08-24 00:16:ERROR:root:name 'n' is not defined
+08-24 00:16:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 227, in onFocusLost
+    selectBox(n)
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 195, in selectBox
+    n.widget = box = QComboBox()
+NameError: name 'n' is not defined
+
+08-24 00:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:16:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:16:INFO:root:----------new add-on start-----------
+08-24 00:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:16:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 00:16:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 00:17:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 00:17:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 00:17:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 00:17:DEBUG:root:web connect status code:200
+08-24 00:17:DEBUG:root:encoding:utf-8
+08-24 00:17:INFO:root:明日:the word has　3　pronounces
+08-24 00:17:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 00:17:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 00:17:DEBUG:root:audio has been download
+08-24 00:17:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 00:17:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 00:17:DEBUG:root:audio has been download
+08-24 00:17:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 00:17:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:01:INFO:root:----------new add-on start-----------
+08-24 01:01:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:01:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:01:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:01:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:01:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:01:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:01:DEBUG:root:web connect status code:200
+08-24 01:01:DEBUG:root:encoding:utf-8
+08-24 01:01:INFO:root:明日:the word has　3　pronounces
+08-24 01:01:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:01:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 01:01:DEBUG:root:audio has been download
+08-24 01:01:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:01:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 01:01:DEBUG:root:audio has been download
+08-24 01:01:DEBUG:root:setIndexPronounces:1
+08-24 01:04:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:04:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:04:INFO:root:----------new add-on start-----------
+08-24 01:05:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:05:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:05:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:05:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:05:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:05:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:05:DEBUG:root:web connect status code:200
+08-24 01:05:DEBUG:root:encoding:utf-8
+08-24 01:05:INFO:root:明日:the word has　3　pronounces
+08-24 01:05:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:05:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 01:05:DEBUG:root:audio has been download
+08-24 01:05:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:05:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 01:05:DEBUG:root:audio has been download
+08-24 01:05:ERROR:root:Error when serch word:明日
+08-24 01:05:ERROR:root:generateFields() takes 1 positional argument but 2 were given
+08-24 01:05:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 241, in onFocusLost
+    if not af.generateFields(n):
+TypeError: generateFields() takes 1 positional argument but 2 were given
+
+08-24 01:05:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:05:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:07:INFO:root:----------new add-on start-----------
+08-24 01:07:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:07:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:07:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:07:ERROR:root:Error when serch word:
+08-24 01:07:ERROR:root:'NoneType' object is not subscriptable
+08-24 01:07:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 216, in onFocusLost
+    if not af.isAllFieldEmpty():
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\autofield.py", line 60, in isAllFieldEmpty
+    if self.note[name]:
+TypeError: 'NoneType' object is not subscriptable
+
+08-24 01:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:08:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:08:INFO:root:----------new add-on start-----------
+08-24 01:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:08:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:08:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:08:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:08:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:08:DEBUG:root:web connect status code:200
+08-24 01:08:DEBUG:root:encoding:utf-8
+08-24 01:08:INFO:root:明日:the word has　3　pronounces
+08-24 01:08:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:08:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 01:08:DEBUG:root:audio has been download
+08-24 01:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:08:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 01:08:DEBUG:root:audio has been download
+08-24 01:08:DEBUG:root:setIndexPronounces:2
+08-24 01:09:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:09:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 01:09:DEBUG:root:audio has been download
+08-24 01:09:DEBUG:root:setIndexPronounces:1
+08-24 01:09:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:09:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:10:INFO:root:----------new add-on start-----------
+08-24 01:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:10:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:10:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:10:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:10:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:10:DEBUG:root:web connect status code:200
+08-24 01:10:DEBUG:root:encoding:utf-8
+08-24 01:10:INFO:root:明日:the word has　3　pronounces
+08-24 01:10:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:10:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 01:10:DEBUG:root:audio has been download
+08-24 01:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:10:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 01:10:DEBUG:root:audio has been download
+08-24 01:10:DEBUG:root:setIndexPronounces:2
+08-24 01:11:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:11:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:12:INFO:root:----------new add-on start-----------
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:12:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:12:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:12:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:12:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:12:DEBUG:root:web connect status code:200
+08-24 01:12:DEBUG:root:encoding:utf-8
+08-24 01:12:INFO:root:明日:the word has　3　pronounces
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:12:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 01:12:DEBUG:root:audio has been download
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:12:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 01:12:DEBUG:root:audio has been download
+08-24 01:12:DEBUG:root:setIndexPronounces:1
+08-24 01:12:DEBUG:root:regenerate fields
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:12:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 01:12:DEBUG:root:audio has been download
+08-24 01:12:DEBUG:root:regenerate fields success
+08-24 01:12:DEBUG:root:setIndexPronounces:2
+08-24 01:12:DEBUG:root:regenerate fields
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:12:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 01:12:DEBUG:root:audio has been download
+08-24 01:12:DEBUG:root:regenerate fields success
+08-24 01:12:DEBUG:root:setIndexPronounces:1
+08-24 01:12:DEBUG:root:regenerate fields
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:12:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 01:12:DEBUG:root:audio has been download
+08-24 01:12:DEBUG:root:regenerate fields success
+08-24 01:12:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:12:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:13:INFO:root:----------new add-on start-----------
+08-24 01:13:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:13:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:13:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:13:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:13:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:13:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:13:DEBUG:root:web connect status code:200
+08-24 01:13:DEBUG:root:encoding:utf-8
+08-24 01:13:INFO:root:明日:the word has　3　pronounces
+08-24 01:13:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:13:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 01:13:DEBUG:root:audio has been download
+08-24 01:13:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:13:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 01:13:DEBUG:root:audio has been download
+08-24 01:13:DEBUG:root:setIndexPronounces:2
+08-24 01:13:DEBUG:root:regenerate fields
+08-24 01:13:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:13:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 01:13:DEBUG:root:audio has been download
+08-24 01:13:DEBUG:root:regenerate fields success
+08-24 01:14:DEBUG:root:setIndexPronounces:2
+08-24 01:14:DEBUG:root:regenerate fields
+08-24 01:14:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:14:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 01:14:DEBUG:root:audio has been download
+08-24 01:14:DEBUG:root:regenerate fields success
+08-24 01:14:DEBUG:root:setIndexPronounces:1
+08-24 01:14:DEBUG:root:regenerate fields
+08-24 01:14:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:14:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 01:14:DEBUG:root:audio has been download
+08-24 01:14:DEBUG:root:regenerate fields success
+08-24 01:14:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:14:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:16:INFO:root:----------new add-on start-----------
+08-24 01:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:16:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:16:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:16:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:16:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:16:DEBUG:root:web connect status code:200
+08-24 01:16:DEBUG:root:encoding:utf-8
+08-24 01:16:INFO:root:明日:the word has　3　pronounces
+08-24 01:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:16:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 01:16:DEBUG:root:audio has been download
+08-24 01:16:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:16:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 01:16:DEBUG:root:audio has been download
+08-24 01:16:DEBUG:root:setIndexPronounces:2
+08-24 01:16:DEBUG:root:regenerate fields
+08-24 01:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:16:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 01:16:DEBUG:root:audio has been download
+08-24 01:16:DEBUG:root:regenerate fields success
+08-24 01:16:DEBUG:root:setIndexPronounces:2
+08-24 01:16:DEBUG:root:regenerate fields
+08-24 01:16:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:16:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 01:16:DEBUG:root:audio has been download
+08-24 01:16:DEBUG:root:regenerate fields success
+08-24 01:17:DEBUG:root:setIndexPronounces:2
+08-24 01:17:DEBUG:root:regenerate fields
+08-24 01:17:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 01:17:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 01:17:DEBUG:root:audio has been download
+08-24 01:17:DEBUG:root:regenerate fields success
+08-24 01:17:DEBUG:root:setIndexPronounces:1
+08-24 01:17:DEBUG:root:regenerate fields
+08-24 01:17:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 01:17:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 01:17:DEBUG:root:audio has been download
+08-24 01:17:DEBUG:root:regenerate fields success
+08-24 01:40:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:40:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:40:INFO:root:----------new add-on start-----------
+08-24 01:40:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:40:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:40:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:40:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:40:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:40:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:40:DEBUG:root:web connect status code:200
+08-24 01:40:DEBUG:root:encoding:utf-8
+08-24 01:40:INFO:root:明日:the word has　3　pronounces
+08-24 01:40:ERROR:root:Error when serch word:明日
+08-24 01:40:ERROR:root:'JpDictCrawler' object has no attribute 'getTypeNameDict'
+08-24 01:40:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 227, in onFocusLost
+    n[jp.getTypeNameDict()['KanaFields']].widget = box = QComboBox()
+AttributeError: 'JpDictCrawler' object has no attribute 'getTypeNameDict'
+
+08-24 01:41:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:41:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:41:INFO:root:----------new add-on start-----------
+08-24 01:41:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:41:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:41:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:41:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:41:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:41:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:41:DEBUG:root:web connect status code:200
+08-24 01:41:DEBUG:root:encoding:utf-8
+08-24 01:41:INFO:root:明日:the word has　3　pronounces
+08-24 01:41:ERROR:root:Error when serch word:明日
+08-24 01:41:ERROR:root:name 'typeNameDict' is not defined
+08-24 01:41:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 227, in onFocusLost
+    n[af.getTypeNameDict()['KanaFields']].widget = box = QComboBox()
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\autofield.py", line 35, in getTypeNameDict
+    return typeNameDict
+NameError: name 'typeNameDict' is not defined
+
+08-24 01:42:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:42:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:43:INFO:root:----------new add-on start-----------
+08-24 01:43:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:43:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:43:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:43:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 01:43:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 01:43:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 01:43:DEBUG:root:web connect status code:200
+08-24 01:43:DEBUG:root:encoding:utf-8
+08-24 01:43:INFO:root:明日:the word has　3　pronounces
+08-24 01:43:ERROR:root:Error when serch word:明日
+08-24 01:43:ERROR:root:'str' object has no attribute 'widget'
+08-24 01:43:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 227, in onFocusLost
+    n[af.getNameFromType('KanaFields')].widget = box = QComboBox()
+AttributeError: 'str' object has no attribute 'widget'
+
+08-24 01:44:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:44:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:45:INFO:root:----------new add-on start-----------
+08-24 01:45:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:45:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 01:45:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 01:45:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 01:45:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 20:32:INFO:root:----------new add-on start-----------
+08-24 20:32:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 20:32:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 20:32:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 20:33:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 20:33:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 20:33:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 20:33:DEBUG:root:web connect status code:200
+08-24 20:33:DEBUG:root:encoding:utf-8
+08-24 20:33:INFO:root:明日:the word has　3　pronounces
+08-24 20:33:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 20:33:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 20:33:DEBUG:root:audio has been download
+08-24 20:33:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 20:33:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 20:33:DEBUG:root:audio has been download
+08-24 20:33:DEBUG:root:setIndexPronounces:2
+08-24 20:33:DEBUG:root:regenerate fields
+08-24 20:33:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 20:33:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 20:33:DEBUG:root:audio has been download
+08-24 20:33:DEBUG:root:regenerate fields success
+08-24 20:33:DEBUG:root:setIndexPronounces:1
+08-24 20:33:DEBUG:root:regenerate fields
+08-24 20:33:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 20:33:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 20:33:DEBUG:root:audio has been download
+08-24 20:33:DEBUG:root:regenerate fields success
+08-24 20:33:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 20:33:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 20:57:INFO:root:----------new add-on start-----------
+08-24 20:57:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 20:58:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 20:58:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 20:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 20:58:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 20:58:INFO:root:----------new add-on start-----------
+08-24 20:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 20:58:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 20:58:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 20:58:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 20:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 20:58:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 20:58:DEBUG:root:web connect status code:200
+08-24 20:58:DEBUG:root:encoding:utf-8
+08-24 20:58:INFO:root:明日:the word has　3　pronounces
+08-24 20:58:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 20:58:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 20:58:DEBUG:root:audio has been download
+08-24 20:58:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 20:58:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 20:58:DEBUG:root:audio has been download
+08-24 20:59:DEBUG:root:setIndexPronounces:1
+08-24 20:59:DEBUG:root:regenerate fields
+08-24 20:59:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 20:59:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 20:59:DEBUG:root:audio has been download
+08-24 20:59:DEBUG:root:regenerate fields success
+08-24 20:59:DEBUG:root:setIndexPronounces:2
+08-24 20:59:DEBUG:root:regenerate fields
+08-24 20:59:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 20:59:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 20:59:DEBUG:root:audio has been download
+08-24 20:59:DEBUG:root:regenerate fields success
+08-24 20:59:DEBUG:root:setIndexPronounces:1
+08-24 20:59:DEBUG:root:regenerate fields
+08-24 20:59:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:00:INFO:root:----------new add-on start-----------
+08-24 21:00:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:00:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 21:00:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 21:00:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 21:00:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:00:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 21:00:DEBUG:root:web connect status code:200
+08-24 21:00:DEBUG:root:encoding:utf-8
+08-24 21:00:INFO:root:明日:the word has　3　pronounces
+08-24 21:00:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:00:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 21:00:DEBUG:root:audio has been download
+08-24 21:00:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:00:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 21:00:DEBUG:root:audio has been download
+08-24 21:00:DEBUG:root:setIndexPronounces:2
+08-24 21:00:DEBUG:root:regenerate fields
+08-24 21:00:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:00:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:00:DEBUG:root:audio has been download
+08-24 21:00:DEBUG:root:regenerate fields success
+08-24 21:00:DEBUG:root:setIndexPronounces:1
+08-24 21:00:DEBUG:root:regenerate fields
+08-24 21:00:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:00:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 21:00:DEBUG:root:audio has been download
+08-24 21:00:DEBUG:root:regenerate fields success
+08-24 21:00:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:00:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 21:03:INFO:root:----------new add-on start-----------
+08-24 21:03:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:03:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 21:03:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 21:03:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 21:03:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:03:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 21:03:DEBUG:root:web connect status code:200
+08-24 21:03:DEBUG:root:encoding:utf-8
+08-24 21:03:INFO:root:明日:the word has　3　pronounces
+08-24 21:03:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:03:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 21:03:DEBUG:root:audio has been download
+08-24 21:03:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:03:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 21:03:DEBUG:root:audio has been download
+08-24 21:03:DEBUG:root:setIndexPronounces:2
+08-24 21:03:DEBUG:root:regenerate fields
+08-24 21:03:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:03:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:03:DEBUG:root:audio has been download
+08-24 21:03:DEBUG:root:regenerate fields success
+08-24 21:03:DEBUG:root:setIndexPronounces:1
+08-24 21:03:DEBUG:root:regenerate fields
+08-24 21:03:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:03:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 21:03:DEBUG:root:audio has been download
+08-24 21:03:DEBUG:root:regenerate fields success
+08-24 21:03:DEBUG:root:setIndexPronounces:2
+08-24 21:03:DEBUG:root:regenerate fields
+08-24 21:03:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:03:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:03:DEBUG:root:audio has been download
+08-24 21:03:DEBUG:root:regenerate fields success
+08-24 21:04:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 21:04:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:04:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 21:04:DEBUG:root:web connect status code:200
+08-24 21:04:DEBUG:root:encoding:utf-8
+08-24 21:04:INFO:root:明日:the word has　3　pronounces
+08-24 21:04:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:04:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:04:DEBUG:root:audio has been download
+08-24 21:04:DEBUG:root:setIndexPronounces:0
+08-24 21:04:DEBUG:root:regenerate fields
+08-24 21:04:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:04:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 21:04:DEBUG:root:audio has been download
+08-24 21:04:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:04:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 21:04:DEBUG:root:audio has been download
+08-24 21:04:DEBUG:root:regenerate fields success
+08-24 21:04:DEBUG:root:setIndexPronounces:2
+08-24 21:04:DEBUG:root:regenerate fields
+08-24 21:04:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:04:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:04:DEBUG:root:audio has been download
+08-24 21:04:DEBUG:root:regenerate fields success
+08-24 21:04:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:04:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 21:07:INFO:root:----------new add-on start-----------
+08-24 21:07:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:07:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 21:07:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 21:07:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 21:07:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:07:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 21:07:DEBUG:root:web connect status code:200
+08-24 21:07:DEBUG:root:encoding:utf-8
+08-24 21:07:INFO:root:明日:the word has　3　pronounces
+08-24 21:07:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:07:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 21:07:DEBUG:root:audio has been download
+08-24 21:07:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:07:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 21:07:DEBUG:root:audio has been download
+08-24 21:07:DEBUG:root:setIndexPronounces:2
+08-24 21:07:DEBUG:root:regenerate fields
+08-24 21:07:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:07:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:07:DEBUG:root:audio has been download
+08-24 21:07:DEBUG:root:regenerate fields success
+08-24 21:07:DEBUG:root:setIndexPronounces:2
+08-24 21:07:DEBUG:root:regenerate fields
+08-24 21:07:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:07:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:07:DEBUG:root:audio has been download
+08-24 21:07:DEBUG:root:regenerate fields success
+08-24 21:08:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E4%B8%80%E4%BA%BA
+08-24 21:08:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:08:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E4%B8%80%E4%BA%BA HTTP/1.1" 200 None
+08-24 21:08:DEBUG:root:web connect status code:200
+08-24 21:08:DEBUG:root:encoding:utf-8
+08-24 21:08:INFO:root:一人:the word has　2　pronounces
+08-24 21:08:ERROR:root:Error when serch word:一人
+08-24 21:08:ERROR:root:list index out of range
+08-24 21:08:ERROR:root:Traceback (most recent call last):
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\__init__.py", line 232, in onFocusLost
+    sentence = jp.getSentence()
+  File "C:\Users\wangh_000\AppData\Roaming\Anki2\addons21\jpdictcrawler\jpdictcrawler\crawler.py", line 170, in getSentence
+    return find_sentence_pair(detail_groups[self.indexPronounces])
+IndexError: list index out of range
+
+08-24 21:09:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:09:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 21:09:INFO:root:----------new add-on start-----------
+08-24 21:09:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:09:DEBUG:urllib3.connectionpool:https://ankiweb.net:443 "POST /update/desktop HTTP/1.1" 200 57
+08-24 21:09:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
+08-24 21:10:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 21:10:DEBUG:root:web connect status code:200
+08-24 21:10:DEBUG:root:encoding:utf-8
+08-24 21:10:INFO:root:明日:the word has　3　pronounces
+08-24 21:10:DEBUG:root:setIndexPronounces:1
+08-24 21:10:DEBUG:root:regenerate fields
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/334E79A7A170E7365F68BE973476365D HTTP/1.1" 200 13824
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:root:regenerate fields success
+08-24 21:10:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E6%98%8E%E6%97%A5
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E6%98%8E%E6%97%A5 HTTP/1.1" 200 None
+08-24 21:10:DEBUG:root:web connect status code:200
+08-24 21:10:DEBUG:root:encoding:utf-8
+08-24 21:10:INFO:root:明日:the word has　3　pronounces
+08-24 21:10:DEBUG:root:setIndexPronounces:0
+08-24 21:10:DEBUG:root:regenerate fields
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:10:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:root:regenerate fields success
+08-24 21:10:DEBUG:root:setIndexPronounces:2
+08-24 21:10:DEBUG:root:regenerate fields
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:10:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:root:regenerate fields success
+08-24 21:10:DEBUG:root:setIndexPronounces:0
+08-24 21:10:DEBUG:root:regenerate fields
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:10:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01134.mp3 HTTP/1.1" 200 3553
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/8E0CC10C792E59FB3B677BCC5D31C74031590146C4187176B9DF56EC607249B1 HTTP/1.1" 200 29952
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:root:regenerate fields success
+08-24 21:10:DEBUG:root:setIndexPronounces:2
+08-24 21:10:DEBUG:root:regenerate fields
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:10:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J01062.mp3 HTTP/1.1" 200 3866
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:root:regenerate fields success
+08-24 21:10:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E4%B8%80%E4%BA%BA
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E4%B8%80%E4%BA%BA HTTP/1.1" 200 None
+08-24 21:10:DEBUG:root:web connect status code:200
+08-24 21:10:DEBUG:root:encoding:utf-8
+08-24 21:10:INFO:root:一人:the word has　2　pronounces
+08-24 21:10:DEBUG:root:setIndexPronounces:1
+08-24 21:10:DEBUG:root:regenerate fields
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/6D2EADBE1F7B991575CF37A71C830A9D HTTP/1.1" 200 10368
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tts.hjapi.com:443
+08-24 21:10:DEBUG:urllib3.connectionpool:https://tts.hjapi.com:443 "GET /jp/C1BA6BEF0C8D1D0069E947244F93CD8961776DFD1D19263F HTTP/1.1" 200 17856
+08-24 21:10:DEBUG:root:audio has been download
+08-24 21:10:DEBUG:root:regenerate fields success
+08-24 21:11:DEBUG:root:setIndexPronounces:0
+08-24 21:11:DEBUG:root:regenerate fields
+08-24 21:11:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): d1.g.hjfile.cn:80
+08-24 21:11:DEBUG:urllib3.connectionpool:http://d1.g.hjfile.cn:80 "GET /voice/jpsound/J03990.mp3 HTTP/1.1" 200 3030
+08-24 21:11:DEBUG:root:audio has been download
+08-24 21:11:DEBUG:root:regenerate fields success
+08-24 21:11:DEBUG:root:url:https://dict.hjenglish.com/jp/jc/%E4%B8%80%E4%BA%BA
+08-24 21:11:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): dict.hjenglish.com:443
+08-24 21:11:DEBUG:urllib3.connectionpool:https://dict.hjenglish.com:443 "GET /jp/jc/%E4%B8%80%E4%BA%BA HTTP/1.1" 200 None
+08-24 21:11:DEBUG:root:web connect status code:200
+08-24 21:11:DEBUG:root:encoding:utf-8
+08-24 21:11:INFO:root:一人:the word has　2　pronounces
+08-24 21:11:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): sync3.ankiweb.net:443
+08-24 21:11:DEBUG:urllib3.connectionpool:https://sync3.ankiweb.net:443 "POST /sync/meta HTTP/1.1" 200 157
