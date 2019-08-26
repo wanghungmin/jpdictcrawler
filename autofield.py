@@ -10,7 +10,7 @@ class AutoField():
         self.typeNameDict = {} # is a dictionary , to mark the field types and the corresponding field names in this note
         self.typeValueDict = {} # is a dictionary , to mark the field values that we want to fill in corresponding fields type 
         self.note = None
-    def boundNote(n):
+    def bindNote(n):
         self.note = n
         return
     def isTargetNoteType(self,noteName):
@@ -83,4 +83,5 @@ class AutoField():
                 continue
             if type in self.typeValueDict:
                 self.setField(self.note,name,self.typeValueDict[type])
+        self.typeValueDict = {}
         return True   

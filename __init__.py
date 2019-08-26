@@ -20,7 +20,7 @@ import json
 import os.path
 from . import opencc
 from .opencc import OpenCC
-from .str import LF2BR,onlyOneLF
+from .str import *
 from .jpdictcrawler.path import *
 logging.info('----------new add-on start-----------')
 
@@ -234,7 +234,8 @@ def onFocusLost(flag, n, fidx):
         meaning = jp.getMeaning()
         pronounce = jp.getPronounce()
         if meaning:
-            af.addDstValue('MeaningFields',cc.convert(LF2BR(onlyOneLF(meaning))))
+            meaning = LF2BR(removeFirstLF(onlyOneLF(meaning)))
+            af.addDstValue('MeaningFields',cc.convert(meaning))
         if pronounce:
             af.addDstValue('KanaFields',pronounce[0])
             af.addDstValue('PronounceAudioField',AnkiMedia.audioLinkToField(pronounce[1],pronounce[2]))
@@ -258,7 +259,7 @@ def onFocusLost(flag, n, fidx):
     return True
 
 
-#this method is failed because the editor does not recieve the update flag to update the view
+# this method is failed because the editor does not recieve the update flag to update the view
 
 def regenerateFields(index):
     global jp
@@ -294,6 +295,7 @@ def onStrike(editor):
     
     
 icon_path = os.path.join(ICON_PATH,"icon.png")
+# 當開兩個editor時 editor pointer 會指向不同地方 造成更新失敗
 def addMyButton(buttons, editor):
     global editor_ptr
     editor_ptr = editor

@@ -42,7 +42,7 @@ def string_shaping(str):
 def find_sentence_pair(tag):
     def_sentence_from = tag.find(attrs={'class':'def-sentence-from'})
     if(def_sentence_from==None):
-        return None;
+        return None
     def_sentence_to = tag.find(attrs={'class':'def-sentence-to'})
     audio_link = def_sentence_from.find(attrs={'class':'word-audio'}).get('data-src')
     return [string_shaping(def_sentence_from.text),string_shaping(def_sentence_to.text),audio_link]
@@ -87,7 +87,7 @@ class JpDictCrawler():
             self.numPronounces = len(pronounces)
             logging.info(word+':the word has　'+ str(self.numPronounces) + '　pronounces')
         else:
-            numPronounces = 1
+            self.numPronounces = 1
         self.soup = soup    
         return soup
     
@@ -168,7 +168,8 @@ class JpDictCrawler():
         detail_groups = self.soup.find_all(attrs={'class':'detail-groups'})
         if(detail_groups):
             return find_sentence_pair(detail_groups[self.indexPronounces])
-    
+        else:
+            return None
     # get pronounce of the word 
     # return a list of the pronounce in the form of [Kana,PronounceAudioLink,Romaji]
     def getPronounce(self):
