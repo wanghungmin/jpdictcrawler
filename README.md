@@ -26,4 +26,5 @@ An anki add-on which can generate meanings, pronounces and sentences automatical
 * 當有不同讀音時，選擇你需要的讀音
 * 切換生成的欄位的開關
 * 切換繁簡轉換的開關
+* 生成note時如有發音則播放一次
 Copyright © 2019 wanghungmin 
