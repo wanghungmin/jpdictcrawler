@@ -3,7 +3,7 @@
 # import the main window object (mw) from aqt
 from aqt import mw
 # import the "show info" tool from utils.py
-from aqt.utils import showInfo
+from aqt.utils import showInfo,chooseList,ButtonedDialog
 # import all of the Qt GUI library
 from aqt.qt import *
 from aqt.fields import FieldDialog
@@ -56,15 +56,23 @@ sw = Switch()
 
 
 
-class SetupWidget():
-    def __init__(self):
-        self.widget = QWidget()
-        self.checkbox = QCheckBox("sentence generate",widget)
+class SetupWidget(QWidget):
+    def __init__(self,sw):
+        QWidget.__init__(self)
+        self.sw = sw
+        layout = QVBoxLayout(self)
+        sg_checkbox = QCheckBox("sentence generate")
+        cc_checkbox = QCheckBox("chinese convert")
+        btn = QPushButton("OK")
+        layout.addWidget(sg_checkbox)
+        layout.addWidget(cc_checkbox)
+        layout.addWidget(btn)
 def testFunction():
     global sw
     # show a message box
-    showInfo("Written by redmin")
-    
+    #showInfo("Written by redmin")
+    mw.myWidget = setup = SetupWidget(sw)
+    setup.show()
     '''
     mw.myWidget = widget = QWidget()
     checkbox = QCheckBox("sentence generate",widget)
@@ -77,132 +85,10 @@ def testFunction():
     '''
 
 
-'''    
-config = mw.addonManager.getConfig(__name__)
-
-srcFields = config['srcFields']
-dstMeaningFields = config['dstMeaningFields']
-dstPronounceFields = config['dstPronounceFields']
-dstPronounceAudioField = config['dstPronounceAudioField']
-dstSentenceFromFields = config['dstSentenceFromFields']
-dstSentenceToFields = config['dstSentenceToFields']
-dstSentenceAudioField = config['dstSentenceAudioField']
-
-def onFocusLost(flag, n, fidx):
-    jp = JpDictCrawler()
-    src = None
-    dstMeaning = None
-    dstPronounce = None
-    dstPronounceAudio = None
-    dstSentenceFrom = None
-    dstSentenceTo = None
-    dstSentenceAudio = None
-    # japanese model?
-    if "japanese" not in n.model()['name'].lower():
-        return flag
-
-    # have src and dst fields?
-    for c, name in enumerate(mw.col.models.fieldNames(n.model())):
-        for f in srcFields:
-            if name == f:
-                src = f
-                srcIdx = c
-        for f in dstMeaningFields:
-            if name == f:
-                dstMeaning = f
-        for f in dstPronounceFields:
-            if name == f:
-                dstPronounce = f
-        for f in dstPronounceAudioField:
-            if name == f:
-                dstPronounceAudio = f
-        for f in dstSentenceFromFields:
-            if name == f:
-                dstSentenceFrom = f
-        for f in dstSentenceToFields:
-            if name == f:
-                dstSentenceTo = f
-        for f in dstSentenceAudioField:
-            if name == f:
-                dstSentenceAudio = f
-    if not src or not(dstMeaning or dstPronounce or dstPronounceAudio or dstSentenceFrom or dstSentenceTo or dstSentenceAudio):
-        return flag
-    # if the src field is empty,flush all the dst fields
-    if not n[src]:
-        if dstMeaning:
-            n[dstMeaning] = ''
-        if dstPronounce:
-            n[dstPronounce] = ''
-        if dstPronounceAudio:
-            n[dstPronounceAudio] = ''
-        if dstSentenceFrom:
-            n[dstSentenceFrom] = ''
-        if dstSentenceTo:
-            n[dstSentenceTo] = ''
-        if dstSentenceAudio:
-            n[dstSentenceAudio] = ''
-        return True
-    # dst field already filled?
-    if n[dstMeaning]:
-        return flag
-    if n[dstSentenceFrom]:
-        return flag
-    if n[dstSentenceTo]:
-        return flag
-    # event coming from src field?
-    if fidx != srcIdx:
-        return flag
-    # grab source text
-    srcTxt = mw.col.media.strip(n[src])
-    if not srcTxt:
-        return flag
-    # update field
-    logging.debug('src field is triggered,serch the word:'+srcTxt)
-    try:
-        jp.serchWord(srcTxt)
-        sentence = jp.getSentence()
-        meaning = jp.getMeaning()
-        [kana,pronounce_link,romaji] = jp.getPronounce()
-        if kana:
-            if dstPronounce:
-                n[dstPronounce] = kana
-        if pronounce_link:
-            if dstPronounceAudio:
-                n[dstPronounceAudio] = AnkiMedia.audioLinkToField(pronounce_link,romaji)
-        if meaning:
-            if dstMeaning:
-                n[dstMeaning] = meaning
-        if sentence:
-            if dstSentenceFrom:
-                n[dstSentenceFrom] = sentence[0]
-            if dstSentenceTo:
-                n[dstSentenceTo] = sentence[1]
-            if dstSentenceAudio:
-                n[dstSentenceAudio] = AnkiMedia.audioLinkToField(sentence[2],romaji+"_sentence")
-    except crawler.CrawlerError as e:
-        logging.warning(e)
-    except Exception as e:
-        jp.dumpHtmlResult()
-        logging.error(e)
-        logging.error(traceback.format_exc())
-        jp = None
-        raise
-    return True
-'''
-
-def selectBox(self):
-    global jp
-    self.widget = box = QComboBox()
-    list = jp.getKanaList()
-    box.addItems(list)
-    box.activated.connect(jp.setIndexPronounces)
-    box.show()
-editor_ptr = None
 def onFocusLost(flag, n, fidx):
     global af
     global jp
     global sw
-    global editor_ptr
     if not af.isTargetNoteType(n.model()['name']):
         return flag
     fields = mw.col.models.fieldNames(n.model())
@@ -219,16 +105,15 @@ def onFocusLost(flag, n, fidx):
         if srcTxt == '':
             af.flushDstFields()
             return True
-        jp.serchWord(srcTxt)
+        if not jp.serchWord(srcTxt):
+            return flag
         
         #kana = af.getFieldValue(n,'KanaFields')
         if jp.isMultiPronounces():
-            editor_ptr.widget = box = QComboBox()
+            logging.debug("pop QComboBox to select pronounce")
             list = jp.getKanaList()
-            box.addItems(list)
-            box.activated.connect(regenerateFields)
-            box.show()
-            return flag
+            index = chooseList("multi pronounce", list, startrow=0, parent=None)
+            jp.setIndexPronounces(index)
        
         sentence = jp.getSentence()
         meaning = jp.getMeaning()
@@ -240,15 +125,21 @@ def onFocusLost(flag, n, fidx):
             af.addDstValue('KanaFields',pronounce[0])
             af.addDstValue('PronounceAudioField',AnkiMedia.audioLinkToField(pronounce[1],pronounce[2]))
         if sentence and sw.sentence_generate:
+            if pronounce[2] == None:
+                file_name = srcTxt+"_sentence"
+            else:
+                file_name = pronounce[2]+"_sentence"
             af.addDstValue('SentenceFields',sentence[0])
             af.addDstValue('SentenceMeaningFields',cc.convert(sentence[1]))
-            af.addDstValue('SentenceAudioField',AnkiMedia.audioLinkToField(sentence[2],pronounce[2]+"_sentence"))
+            af.addDstValue('SentenceAudioField',AnkiMedia.audioLinkToField(sentence[2],file_name))
         
         if not af.generateFields():
             return flag
             
     except crawler.CrawlerError as e:
         logging.warning(e)
+    except requests.ConnectionError as e:
+        showInfo(e)
     except Exception as e:
         logging.error('Error when serch word:'+jp.word)
         logging.error(e)
@@ -259,8 +150,7 @@ def onFocusLost(flag, n, fidx):
     return True
 
 
-# this method is failed because the editor does not recieve the update flag to update the view
-
+# deprecated:this method is failed because the editor does not recieve the update flag to update the view
 def regenerateFields(index):
     global jp
     global af
@@ -271,6 +161,7 @@ def regenerateFields(index):
     meaning = jp.getMeaning()
     pronounce = jp.getPronounce()
     if meaning:
+        meaning = LF2BR(removeFirstLF(onlyOneLF(meaning)))
         af.addDstValue('MeaningFields',cc.convert(LF2BR(onlyOneLF(meaning))))
     if pronounce:
         af.addDstValue('KanaFields',pronounce[0])
@@ -287,24 +178,19 @@ def regenerateFields(index):
     if not af.generateFields():
         return False
     editor_ptr.loadNoteKeepingFocus()
+    #editor_ptr.loadNote()
     logging.debug('regenerate fields success')
     return True
-# cross out the currently selected text
+# todo:open the search result
 def onStrike(editor):
-    global jp
-    
-    
+    pass
 icon_path = os.path.join(ICON_PATH,"icon.png")
-# 當開兩個editor時 editor pointer 會指向不同地方 造成更新失敗
 def addMyButton(buttons, editor):
-    global editor_ptr
-    editor_ptr = editor
     editor._links['strike'] = onStrike
     return buttons + [editor._addButton(
         icon_path, # "/full/path/to/icon.png",
         "strike", # link name
         "tooltip")]
-
 addHook("setupEditorButtons", addMyButton)    
 #-------------------------------------------
 

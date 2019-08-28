@@ -20,15 +20,17 @@ An anki add-on which can generate meanings, pronounces and sentences automatical
     * SentenceMeaningFields : 定義句子解釋欄位的名稱
     * SentenceAudioField : 定義句子發音欄位的名稱
 
+### 當有多個讀音時:
+當有多個讀音時，會跳出選擇視窗供你選擇需要的讀音
 
-## To be continue 仍待完成功能
+## To do 仍待完成功能
 * 加入add-on生成NoteType
-* 當有不同讀音時，選擇你需要的讀音(已有，但功能簡陋，仍需完善)
 * 切換生成的欄位的開關
 * 切換繁簡轉換的開關
 * 生成note時如有發音則播放一次
 
-# Existing Problems 現有問題
-* 讀音選擇視窗不知道為什麼會在其他時候跑出來
+## Existing Problems 現有問題
+* 當羅馬拼音不存在但有發音時(例如搜尋句子)，生成的audio欄位不正確(romanki is empty)
+* 詞性變化的redirection
 
 Copyright © 2019 wanghungmin 

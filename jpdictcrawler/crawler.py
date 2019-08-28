@@ -62,7 +62,7 @@ class JpDictCrawler():
         url = quote(url, safe = string.printable)
         logging.debug("url:"+str(url))
         try:
-            resp = requests.get(url, headers = headers,cookies = cookies)
+            resp = requests.get(url, headers = headers,cookies = cookies,timeout = 5)
         except requests.ConnectionError as e:
             logging.error(e)
             return None
@@ -88,6 +88,7 @@ class JpDictCrawler():
             logging.info(word+':the word has　'+ str(self.numPronounces) + '　pronounces')
         else:
             self.numPronounces = 1
+        self.indexPronounces = 0
         self.soup = soup    
         return soup
     

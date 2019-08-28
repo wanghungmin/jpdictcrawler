@@ -8,7 +8,7 @@ class DownloadError(Exception):
 class Downloader():
     @staticmethod 
     def getDataFromUrl(url):
-        r = requests.get(url,headers = headers)
+        r = requests.get(url,headers = headers,timeout = 5)
         if r:
             logging.debug('audio has been download')
             return r.content
