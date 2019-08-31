@@ -28,9 +28,11 @@ An anki add-on which can generate meanings, pronounces and sentences automatical
 * 切換生成的欄位的開關
 * 切換繁簡轉換的開關
 * 生成note時如有發音則播放一次
+* 批次處理(Bulk)
 
 ## Existing Problems 現有問題
 * 當羅馬拼音不存在但有發音時(例如搜尋句子)，生成的audio欄位不正確(romanki is empty)
 * 詞性變化的redirection
+* 音量大小有時不一致
 
 Copyright © 2019 wanghungmin 
